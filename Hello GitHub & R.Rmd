@@ -1,0 +1,35 @@
+---
+title: "Hello GitHub & R"
+author: "Hanny Lidetu"
+date: "4/20/2021"
+output: html_document
+---
+This is an assignment to be submitted
+```{r}
+a<-2
+b<-5
+r1<-a+b
+r1
+r2<-a-b
+r2
+r3<-a*b
+r3
+r4<-a/b
+r4
+v1<-c(r1,r2,r3,r4)
+v1
+v1<-c(r1,r2,r3,r4,a**b)
+v1
+v2<-c("sum","difference","product","ratio","exponential")
+v2
+df<-data.frame(v1,v2)
+df
+names(df)[1]<-"Result"
+names(df)[2]<-"operation"
+df
+df[1,1]
+df[2,1]
+df[3,1]
+
+````
+
